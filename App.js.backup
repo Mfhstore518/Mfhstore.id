@@ -1,0 +1,16 @@
+import React from 'react';
+import { View, Text } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={{flex:1, backgroundColor:'#4CAF50', justifyContent:'center', alignItems:'center'}}>
+      <Text style={{fontSize:40, color:'white', fontWeight:'bold'}}>🎉 SUKSES!</Text>
+      <Text style={{fontSize:20, color:'#E8F5E9', marginTop:10}}>Aplikasi Berjalan</Text>
+      <Text style={{fontSize:16, color:'white', marginTop:30}}>📦 Daftar Bahan:</Text>
+      <Text style={{fontSize:14, color:'white', marginTop:10}}>• Gula ✓</Text>
+      <Text style={{fontSize:14, color:'white'}}>• Garam ✓</Text>
+      <Text style={{fontSize:14, color:'white'}}>• Air (GRATIS) ✓</Text>
+      <Text style={{fontSize:12, color:'#C8E6C9', marginTop:30}}>HP RAM 8GB - React Native</Text>
+    </View>
+  );
+}
